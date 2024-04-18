@@ -13,13 +13,10 @@ git clone https://github.com/VGHUMARE1/Speech-To-Sign-Language-Converter.git
 Use the package manager [npm](https://www.npmjs.com/)
 
 ```bash
-# install server dependencies
+# install dependencies
 npm install
 
-# install client dependencies
-npm install
-
-# run server
-npm run dev
+# go
+http://localhost:8000
 ```
 
