@@ -1,0 +1,23 @@
+<div>
+  <div style="background-color:#404040;color:#feda6a;padding:10 10 1 10;border: 1px #feda6a groove;margin-bottom:0;">
+
+    <h1 align=center>Audio To Sign Language Tool</h1>
+  </div>
+  <br>
+
+
+  <ul id="nav">
+    <li class="li"><a class="active" href="/home">Home</a></li>
+    <li class="li"><a href="/animation">Convertor</a></li>
+    <% if(!currUser) {%>
+      <li class="li"><a href="/signup">Sign Up</a></li>
+      <li class="li"><a href="/login">Log-in</a></li>
+      <% }else{ %>
+
+        <li class="li"><a href="/logout">Log-Out</a></li>
+        <% } %>
+
+          <li class="li"><a href="/contact">Contact</a></li>
+          <li class="li"><a href="/about">About</a></li>
+  </ul>
+</div>

@@ -1,0 +1,55 @@
+.heading {
+    background-color: #404040;
+    color: #feda6a;
+    padding: 10 10 1 10;
+    border: 1px #feda6a groove;
+    margin-bottom: 0;
+}
+
+body {
+    background-color: #404040
+}
+
+.status {
+    font-size: 4rem;
+    color: rgb(84, 5, 5);
+    letter-spacing: 1rcap;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.message {
+
+    font-size: 1.5rem;
+}
+
+.wrapper {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    /* width: 89%; */
+    height: 4rem;
+    padding: 1rem;
+    background: #feda6a;
+    border-bottom: 0.5rem solid #393f4d;
+    ;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #393f4d;
+    font-weight: bold;
+    font-size: 1.4rem;
+    font-family: "Times New Roman";
+}
+
+.button:hover {
+    background-color: #393f4d;
+    color: #feda6a;
+    font-weight: bold;
+}

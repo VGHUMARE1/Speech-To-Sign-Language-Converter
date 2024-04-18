@@ -1,0 +1,20 @@
+<% if(success && success.length){%>
+  <div class="flash" id="flash">
+    <div class="msg">
+      <%= success %>
+    </div>
+    <button id="btn" class="btn">X</button>
+
+  </div>
+
+  <% } %>
+
+    <% if(error && error.length){%>
+      <div class="flash" id="flash">
+        <div class="msg" style="color: rgb(182, 83, 83);">
+          <%= error %>
+        </div>
+        <button id="btn" class="btn">X</button>
+      </div>
+
+      <% } %>

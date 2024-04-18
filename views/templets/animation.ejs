@@ -1,0 +1,43 @@
+<% layout('layouts/boilerplate') -%>
+
+<div>
+    <div class="split left">
+        <h2 align="center">Enter Text or Use Mic</h2>
+        <br>
+        <form action="" method="post" align="left" onsubmit="return false">
+            <input type="text" name="sen" class="mytext" id="speechToText" placeholder="">
+            <button type="button" name="button" class="mic" onclick="record()"><img src="mic3.png" height="32px" width="38px" /></button>
+		  			&nbsp&nbsp&nbsp&nbsp
+            <input type="submit" name="submit" class="submit" onclick="add()">
+
+        </form>
+        <br>
+        <table cellspacing="20px">
+            <tr>
+                <td class="td">The text that you entered is:</td>
+                <td class="td" id="tableHeader"></td>
+            </tr>
+            <tr>
+                <td class="td">Key words in sentence:</td>
+                <td class="td">
+                    <ul class="td" id="list" align="center">
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="split right">
+        <h2 align="center">Sign Language Animation</h2>
+
+        <div style="text-align:center"> &nbsp&nbsp
+            <button class="submit" onclick="playPause()">Play/Pause</button>
+            <video id="videoPlayer" width="600" height="350" preload="auto" autoplay hidden>
+                <source src="" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+            <img src="" alt="" width="600" height="350" hidden id="gifPlayer">
+        </div>
+    </div>
+
+
+</div>
