@@ -7,7 +7,7 @@ Clone the repository by:
 
 ```bash
 # clone the Speech-To-Sign-Language-Converter repo
-git clone [https://github.com/VGHUMARE1/Speech-To-Sign-Language-Converter.git](https://github.com/VGHUMARE1/Speech-To-Sign-Language-Converter.git)
+git clone https://github.com/VGHUMARE1/Speech-To-Sign-Language-Converter.git
 ```
 
 Use the package manager [npm](https://www.npmjs.com/)
