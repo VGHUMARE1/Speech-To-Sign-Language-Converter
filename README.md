@@ -16,6 +16,9 @@ Use the package manager [npm](https://www.npmjs.com/)
 # install dependencies
 npm install
 
+# run server
+npm run dev
+
 # go
 http://localhost:8000
 ```
