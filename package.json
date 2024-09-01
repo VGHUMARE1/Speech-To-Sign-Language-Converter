@@ -1,8 +1,11 @@
 {
-  "name": "a2sl",
+  "engines": {
+    "node": "20.11.0"
+  },
+  "name": "Speech To Indian Sign Language Converter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
 
   "scripts": {
     "start": "vite",
