@@ -40,8 +40,9 @@ module.exports.signup = async (req, res, next) => {
                 res.redirect("/signup");
 
             } else {
-                res.redirect("/");
                 req.flash("success", "register successfully")
+                res.redirect("/");
+               
             }
         })
     }
